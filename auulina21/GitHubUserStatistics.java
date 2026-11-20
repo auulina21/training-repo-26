@@ -3,7 +3,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 public class GitHubUserStatistics {
-    public final static String USER_NAME;
+    public final static String USER_NAME = "auulina21";
     public static void main(String[] args) {
         String apiUrl = "https://api.github.com/users/" + USER_NAME;
         try {
