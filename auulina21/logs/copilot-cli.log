@@ -1,0 +1,22 @@
+ ! Third-party MCP servers are disabled by your organization's Copilot policy. Only built-in servers
+   are available.
+
+ ! 1 MCP server was blocked by policy: 'browser-use' (Could not verify server against any configured
+   registry)
+
+ ● Copilot Fusion selected GPT-6 Luna because it was the best choice out of the models available in
+   your plan.
+
+ JV Read auulina21/GitHubUserStatistics.java 44 lines read
+
+- `USER_NAME` — назва GitHub-користувача; `public static final` означає доступну з класу константу, яку не можна переприсвоїти.
+- `apiUrl` — локальна змінна з адресою GitHub API, сформованою з `USER_NAME`.
+- `final` забороняє повторне присвоєння змінної; для `USER_NAME` це робить значення константою.
+- Regex для JSON ненадійний: не враховує пробіли біля `:`, екрановані лапки й структуру вкладених об’єктів; також не обробляє `null`, `true`/`false` чи від’ємні числа. Краще використовувати JSON-парсер.
+
+
+
+Changes    +0 -0
+AI Credits 0.18 (9s)
+Tokens     ↑ 24.1k (11.8k cached, 12.3k written) • ↓ 345 (131 reasoning)
+Resume     copilot --resume=78d45f25-6f98-4a80-857d-86eb9670258f

@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "GitHub statistics: debug HTTP",
+      "request": "launch",
+      "mainClass": "GitHubUserStatistics",
+      "classPaths": [
+        "${workspaceFolder}/auulina21"
+      ],
+      "sourcePaths": [
+        "${workspaceFolder}/auulina21"
+      ],
+      "console": "integratedTerminal"
+    }
+  ]
+}
